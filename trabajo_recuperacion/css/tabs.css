@@ -1,0 +1,34 @@
+/* tabs.css */
+
+.tabs__list {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    border-bottom: 2px solid #ccc;
+}
+
+.tabs__item {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+/* Modificadores */
+.tabs__item--active {
+    border-bottom: 2px solid #007BFF;
+}
+
+.tabs__item:hover {
+    border-bottom: 2px solid #0056b3;
+}
+
+.tabs__content {
+    display: none;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.tabs__content--active {
+    display: block;
+}

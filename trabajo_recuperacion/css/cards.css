@@ -1,0 +1,40 @@
+/* card.css */
+
+.card {
+    padding: var(--padding-medium);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--padding-medium);
+}
+
+.card__header {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--padding-small);
+}
+
+.card__body {
+    font-size: var(--font-size-medium);
+}
+
+.card__footer {
+    font-size: var(--font-size-small);
+    text-align: right;
+}
+
+/* Modificadores */
+.card--primary {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+}
+
+.card--secondary {
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+}
+
+.card--bordered {
+    border: 2px solid var(--primary-color);
+}
+
+.card--shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

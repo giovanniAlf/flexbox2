@@ -1,0 +1,30 @@
+
+/* button.css */
+
+.button {
+    padding: var(--padding-small) var(--padding-medium);
+    border: none;
+    cursor: pointer;
+    font-size: var(--font-size-medium);
+    border-radius: var(--border-radius);
+}
+
+/* Modificadores */
+.button--primary {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+}
+
+.button--secondary {
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+}
+
+.button--large {
+    padding: var(--padding-large) var(--padding-medium);
+    font-size: var(--font-size-large);
+}
+
+.button--rounded {
+    border-radius: 50px;
+}

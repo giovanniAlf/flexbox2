@@ -1,0 +1,43 @@
+/* notification.css */
+
+.notification-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    position: relative;
+}
+
+.notification__icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.notification__message {
+    margin: 0;
+}
+
+.notification--success {
+    background-color: #28a745; /* Green */
+}
+
+.notification--error {
+    background-color: #dc3545; /* Red */
+}
+
+.notification--warning {
+    background-color: #ffc107; /* Yellow */
+}
+
+.notification--info {
+    background-color: #17a2b8; /* Blue */
+}

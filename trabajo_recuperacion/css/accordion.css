@@ -1,0 +1,35 @@
+/* accordion.css */
+
+.accordion__checkbox {
+    display: none;
+}
+
+.accordion__title {
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+}
+
+.accordion__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+}
+
+/* Modificadores */
+.accordion__checkbox:checked + .accordion__title + .accordion__content {
+    max-height: 500px; /* Ajusta según el contenido esperado */
+}
+
+.accordion__title:hover {
+    background-color: #e2e2e2;
+}
+
+/* Opcional: añadir transición suave */
+.accordion__content p {
+    margin: 15px 0;
+}
