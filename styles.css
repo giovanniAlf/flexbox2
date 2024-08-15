@@ -11,7 +11,7 @@
     line-height: 1.5;
   }
   
-  .header {
+  .header-imagen {
     background-image: url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     padding: 25px;
     
@@ -44,7 +44,7 @@
     align-items: center;
   }
   
-  .header__logo-link {
+  .header__logo-link-color-blanco {
     text-decoration: none;
     color: #fff;
   }
